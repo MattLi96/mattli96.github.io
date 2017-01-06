@@ -3,9 +3,7 @@
  */
 var app = angular.module('myWebsite', ['ngRoute']);
 
-/**
- * Configure the Routes
- */
+// Configure the Routes
 app.config(['$routeProvider', function ($routeProvider) {
   $routeProvider
     .when("/", {
